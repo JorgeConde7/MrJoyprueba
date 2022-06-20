@@ -1,0 +1,68 @@
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+}
+h3{
+    text-align: center;
+    color: rgb(40, 56, 144);
+    font-size: 40px;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+input[type="password"]{
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid rgb(40, 56, 144);
+}
+
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  rgb(40, 56, 144);
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: rgb(62, 72, 129);
+}
+p{
+    text-align: left;
+}
+.link{
+    text-decoration: none;
+      color: rgb(40, 56, 144);
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+a{
+    text-align: center;
+}
+
