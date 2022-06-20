@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+/*----formulario login---*/   
 .contenedor{
     width: 100%;
     padding: 15px;
@@ -40,9 +48,7 @@ input[type="password"]{
 .button:hover{
     background: rgb(62, 72, 129);
 }
-p{
-    text-align: left;
-}
+
 .link{
     text-decoration: none;
       color: rgb(40, 56, 144);
@@ -60,9 +66,5 @@ p{
         margin-top: 150px;
         border-radius: 2%;
     }
-}
-
-a{
-    text-align: center;
 }
 
