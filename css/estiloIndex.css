@@ -1,0 +1,32 @@
+.c1{
+    background-color: rgb(40, 56, 144);
+    color:aliceblue;
+    width: 100%;
+    min-height: 60px;
+    
+    padding:12px;
+    font-size: 50px;
+}
+.images{
+    margin: auto;
+    height: 400px;
+    width:550px;
+}
+.c2{
+ 
+    text-align: center;
+    width: 100%;
+    min-height: 60px;
+    padding:12px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c3{
+    background-color:rgb(23, 116, 185);
+    color:aliceblue;
+    width: 100%;
+    min-height: 60px;
+    
+    padding:12px;
+    font-size: 50px;
+}
