@@ -1,0 +1,9 @@
+.par{
+    background-color: rgb(40, 56, 144);
+    color:aliceblue;
+    width: 100%;
+    min-height: 60px;
+
+    padding:12px;
+    font-size: 50px;
+}
