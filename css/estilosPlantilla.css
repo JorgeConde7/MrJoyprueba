@@ -160,7 +160,7 @@ footer p{
     background-color: rgb(40, 56, 144);
     color:aliceblue;
     width: 100%;
-    min-height: 100px;
+    min-height: 80px;
     height: auto;
     padding-top:10px;
 }
@@ -175,5 +175,5 @@ footer p{
     font-weight: bold;
     width: 160px;
     top: 110px;
-    margin: 15px 20px;
+    margin: 8px 20px;
 }
