@@ -155,3 +155,25 @@ footer p{
     background-color: rgb(40, 56, 144);
     border-radius: 3px;
 }
+
+.banner-bio{
+    background-color: rgb(40, 56, 144);
+    color:aliceblue;
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    padding-top:10px;
+}
+
+.contenido-banner-bio{
+    display: inline-block;
+    background: #1774b9;
+    padding: 10px 10px;
+    transform: skew(0deg, -5deg) translateY(0px);
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    width: 160px;
+    top: 110px;
+    margin: 15px 20px;
+}
