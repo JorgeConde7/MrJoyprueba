@@ -7,13 +7,11 @@
 a{
     text-decoration: none;
 }
-
 .copy{
     background-color: #222222;
     color:aliceblue;
     font-size: 12px;
 }
-
 header{
     background-color: rgb(40, 56, 144);
     color:aliceblue;
@@ -21,7 +19,6 @@ header{
     min-height: 50px;
     height: auto;
     padding-top:10px;
-
 }
 .botones{
     align-items: center;
@@ -29,7 +26,6 @@ header{
 .registro{
     padding-top: 10px;
 }
-
 .registro ul{
   justify-content: flex-end;
   display: flex;
@@ -43,7 +39,6 @@ header{
     padding: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-
 .fas{
     padding-right: 10px;
 }
@@ -53,7 +48,6 @@ header{
     justify-content: space-between; 
     width: 100%;
 }
-
 .btn-compra{
     background-image: linear-gradient(to top,#8CC63F,#39B54A);
     font-family: PT Sans;
@@ -92,21 +86,17 @@ header{
     display: inline-block;
     margin-left: 20px;
 }
-
 .logo{
     display: block; 
     float: left;
     max-width: 100%;
 }
-
 .navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
 }
 .nav-item{
     padding: 0 0 0 15px;
 }
-
-
 .nav-item a:hover{
     border-bottom: 3px solid rgb(40, 56, 144);
     transition-duration:  0.2s;
@@ -114,8 +104,7 @@ header{
 .active{
     border-bottom: 3px solid rgb(40, 56, 144);
     color: rgb(23, 116, 185);
-}
-    
+} 
 .footer-left{
     background-position: left top;
     background-repeat: no-repeat;
@@ -149,13 +138,11 @@ footer p{
 .ubicaciones{
     font-size: 15px;
 }
-
 .fab{
     padding: 8px 15px;
     background-color: rgb(40, 56, 144);
     border-radius: 3px;
 }
-
 .banner-bio{
     background-color: rgb(40, 56, 144);
     color:aliceblue;
@@ -164,7 +151,6 @@ footer p{
     height: auto;
     padding-top:10px;
 }
-
 .contenido-banner-bio{
     display: inline-block;
     background: #1774b9;
@@ -172,7 +158,6 @@ footer p{
     transform: skew(0deg, -5deg) translateY(0px);
     color: white;
     font-size: 22px;
-    font-weight: bold;
     width: 160px;
     top: 110px;
     margin: 8px 20px;

@@ -11,7 +11,13 @@
     background-image: url(https://mrjoy.com.pe/wp-content/uploads/2019/09/headers-cumple.png);
     border-color: #d2d3d4;
     background-size: auto;
+    padding: 10px 0;
 }
+.contenido-banner-bio{
+    width: 145px;
+
+}
+
 .box{
     transform-style: preserve-3d;
     perspective: 1000px;

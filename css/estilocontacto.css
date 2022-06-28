@@ -1,18 +1,11 @@
 .letra{
     font-size: 14px;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .par{
+.par{
     background-color: rgb(40, 56, 144);
     color:aliceblue;
     width: 100%;
     min-height: 60px;
-
     padding:12px;
     font-size: 50px;
 }
@@ -21,36 +14,29 @@
     height: 600px;
     width:400px;
 }
-h1{
+.texto{
+    padding: 20px;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(40, 56, 144);
-    font-size: 60px;
+    font-size: 30px;
 }
-.andres{
-    text-align: center;
-    color: rgb(40, 56, 144);
-}
-
-
-  
-  .form-register {
+.form-register {
     width: 400px;
     background: rgb(40, 56, 144);
     padding: 30px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 20px;
     border-radius: 4px;
     font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px #000;
-  }
-  
-  .form-register h4 {
+}
+.form-register h4 {
     font-size: 22px;
     margin-bottom: 20px;
-  }
-  
-  .controls {
+}
+.controls {
     width: 100%;
     background: #fff;
     padding: 10px;
@@ -60,26 +46,22 @@ h1{
     font-family: 'calibri';
     font-size: 18px;
     color: white;
-  }
-  
-  .form-register p {
+}
+.form-register p {
     height: 40px;
     text-align: center;
     font-size: 18px;
     line-height: 40px;
-  }
-  
-  .form-register a {
+} 
+.form-register a {
     color: white;
     text-decoration: none;
-  }
-  
-  .form-register a:hover {
+}
+.form-register a:hover {
     color: white;
     text-decoration: underline;
-  }
-  
-  .form-register .botons {
+}
+.form-register .botons {
     width: 100%;
     background: rgb(23, 116, 185);
     border: none;
@@ -87,4 +69,19 @@ h1{
     color: white;
     margin: 16px 0;
     font-size: 16px;
-  }
+}
+.banner{
+  clear: both;
+  padding: 0 10px;
+  height: 80px;
+  background-position: center center;
+  background-origin: border-box;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  background-image: url(/images/contacto/bannerContactos.jpg);
+  border-color: #d2d3d4;
+  padding-top: 10px;
+}
+.contenido-banner-bio{
+    width: 122px;
+}
