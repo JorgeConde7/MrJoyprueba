@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr Joy</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="css/admin/estiloAdmin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css" rel="stylesheet"/>
+    <!--DataTable-->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css"/>
+    <script src="js/jquery-3.5.1.js"></script>
+</head>
+<body>
+   <!--Main Navigation-->
+<header>
+    <!-- Sidebar -->
+    <nav
+         id="sidebarMenu" class="collapse d-lg-block sidebar collapse" >
+      <div class="position-sticky">
+        <div class="list-group list-group-flush mx-3 mt-4">
+          <a href="#" class="list-group-item list-group-item-action py-2 ripple">
+            <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Menu</span>
+        </a>
+        <a href="admEmpleado.html" class="list-group-item list-group-item-action py-2 ripple">
+            <i class="fas fa-users fa-fw me-3"></i><span>Empleados</span>
+        </a>
+        <a href="admin.html" class="list-group-item list-group-item-action py-2 ripple active">
+            <i class="fas fa-lock fa-fw me-3"></i><span>Clientes</span>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action py-2 ripple">
+            <i class="fas fa-chart-line fa-fw me-3"></i><span>Reservas Cumpleaños</span>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action py-2 ripple">
+            <i class="fas fa-chart-pie fa-fw me-3"></i><span>Venta Boletos</span>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action py-2 ripple">
+            <i class="fas fa-calendar fa-fw me-3"></i><span>Calendario</span></a>
+        <a
+         href="#" class="list-group-item list-group-item-action py-2 ripple">
+            <i class="fas fa-chart-bar fa-fw me-3"></i><span>Reportes</span>
+        </a>
+        <a href="#"class="list-group-item list-group-item-action py-2 ripple">
+            <i class="fas fa-users fa-fw me-3"></i><span>Provedores</span>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action py-2 ripple">
+            <i class="fas fa-calendar fa-fw me-3"></i><span>Productos</span>
+        </a>
+        </div>
+      </div>
+    </nav>
+    <!-- Sidebar -->
+  
+    <!-- Navbar -->
+    <nav
+         id="main-navbar" class="navbar navbar-expand-lg navbar-light  fixed-top">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+  
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" height="30" width="150px" alt="" loading="lazy" />
+        </a>
+        <!-- Right links -->
+        <ul class="navbar-nav ms-auto d-flex flex-row">
+          <!-- Notification dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-bell"></i>
+              <span class="badge rounded-pill badge-notification bg-danger">1</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Some news</a></li>
+              <li><a class="dropdown-item" href="#">Another news</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+  
+          <!-- Icon -->
+          <li class="nav-item">
+            <a class="nav-link me-3 me-lg-0" href="#">
+              <i class="fas fa-fill-drip"></i>
+            </a>
+          </li>
+          <!-- Icon -->
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <!-- Avatar -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="#" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false" >
+              <img src="https://mdbootstrap.com/img/Photos/Avatars/img (31).jpg" class="rounded-circle" height="22" alt="" loading="lazy"/>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Mi perfil</a></li>
+              <li><a class="dropdown-item" href="#">Configuraciones</a></li>
+              <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+  </header>
+  <!--Main Navigation-->
+  
+  <!--Main layout-->
+  <main style="margin-top: 48px">
+    <div class="container-fluid pt-4">
+
+                    <a id="btnNuevoCliente" class="btn btn-success float-right my-2"><i class="ion-plus-round"></i> Nuevo</a>
+                    <div class="card" style="min-height: 720px;">
+                        <div class="card-body">
+    
+                            <table id="tablaCliente" class="table table-hover table-dark text-light table-responsive-lg table-bordered " style="width:100%">
+                                <thead>
+                                <tr>
+                                    <th colspan="5" class="text-center"" >LISTA DE EMPLEADOS</th>
+                                </tr>
+                                <tr>
+                                    <th class="text-center">Nombres</th>
+                                    <th class="text-center">Apellidos</th>
+                                    <th class="text-center">Dni</th>
+                                    <th class="text-center">Edad</th>
+                                    <th class="text-center">Acciones</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                  
+                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+            <footer class="card">
+                <div class="card-body">
+                <strong>PROYECTO IDAT Copyright@ 2020.</strong>
+                Todo los derechos reservados
+                <div class="float-right d-none d-sm-inline-block">
+                    <b>Version</b> 1.2.1
+                </div>
+                </div>
+            </footer>
+    
+    </div>
+  </main>
+  <!--Main layout-->
+  
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"></script>
+<!--DataTable-->
+<script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
+
+<script src="https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.6/js/responsive.bootstrap4.min.js"></script>
+<script src="js/logica.js"></script>
+</body>
+</html>
