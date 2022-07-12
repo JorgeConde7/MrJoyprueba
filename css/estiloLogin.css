@@ -1,66 +1,62 @@
-.c1 {
-    background-color: rgb(40, 56, 144);
-    color: aliceblue;
-    width: 100%;
-    min-height: 60px;
 
-    padding: 12px;
-    font-size: 50px;
-}
-.c2{background-color: 
-    rgb(125, 216, 152);
-    color: rgb(40, 56, 144);
-}
-.contenedor{
-    width: 100%;
-    padding: 15px;
-}
-.formulario{
-    background: #fff;
-    margin-top: 150px;
-    padding: 3px;
+
+.main-section{
+    margin:0 auto;
+    margin-top:25%;
+    padding: 0;
 }
 
-h3{
-    text-align: center;
-    color: rgb(40, 56, 144);
-    font-size: 40px;
+.modal-content{
+    background-color: #3b4652;
+    opacity: .85;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484;
+}
+.user-img{
+    margin-top: -50px;
+    margin-bottom: 35px;
 }
 
-.input-contenedor{
-    margin-bottom: 15px;
-    border: 1px solid rgb(40, 56, 144);
+.user-img img{
+    width: 100xp;
+    height: 100%;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 50%;
 }
 
-.button{
-    border: none;
-    
-    color: white;
-    text-align: center;
-    background:  rgb(40, 56, 144);
-    padding: 15px 20px;
+.form-group input{
+    height: 42px;
+    font-size: 18px;
+    border:0;
+    padding-left: 54px;
     border-radius: 5px;
-    cursor: pointer;
-}
-.button:hover{
-    background: rgb(62, 72, 129);
 }
 
-.link{
-    text-decoration: none;
-      color: rgb(40, 56, 144);
-    font-weight: 600;
-}
-.link:hover{
-     color: cadetblue;
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top:4px;
 }
 
-@media(min-width:768px)
-{
-    .formulario{
-        margin: auto;
-        width: 500px;
-        margin-top: 150px;
-        border-radius: 2%;
-    }
+.form-group#user-group::before{
+    content: "\f007";
+}
+
+.form-group#contrasena-group::before{
+    content: "\f023";
+}
+
+button{
+    width: 60%;
+    margin: 5px 0 25px;
+}
+
+.forgot{
+    padding: 5px 0;
+}
+
+.forgot a{
+    color: white;
 }
